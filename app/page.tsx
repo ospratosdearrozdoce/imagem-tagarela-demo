@@ -82,7 +82,7 @@ export default function Lightning() {
           <div className="container px-3 md:px-0 flex flex-col space-y-2">
             <div className="flex flex-col max-md:space-y-4 md:flex-row md:space-x-4 max-w-full">
               <div className="flex-1 space-y-1">
-                <label>Escreve rápido novas instruções!!</label>
+                <label className="text-blue-700">Escreve rápido novas instruções!!</label>
                 <Input
                   onChange={(e) => {
                     handleOnChange(e.target.value);
@@ -93,7 +93,7 @@ export default function Lightning() {
                 />
               </div>
               <div className="space-y-1">
-                <label>Seed</label>
+                <label>Variações</label>
                 <Input
                   onChange={(e) => {
                     setSeed(e.target.value);
