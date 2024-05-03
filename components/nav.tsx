@@ -26,18 +26,6 @@ export function Nav() {
       </div>
       <div className="flex flex-none items-center space-x-4">
         <ThemeToggle />
-        <Button size="sm" asChild>
-          <Link
-            href="https://github.com/fal-ai/sdxl-lightning-demo-app"
-            className="flex flex-row space-x-2 items-center"
-            target="_blank"
-          >
-            <GithubIcon className="h-5 w-5" />
-            <span>
-              <span className="hidden md:inline-block">Fork on</span> GitHub
-            </span>
-          </Link>
-        </Button>
       </div>
     </div>
   );
