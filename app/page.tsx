@@ -133,7 +133,7 @@ export default function Lightning() {
         </div>
         <div className="container flex flex-col items-center justify-center my-4">
           <p className="text-sm text-base-content/70 py-4 text-center text-neutral-400">
-            This playground is for demonstration purposes only.
+            Apenas para brincar durante o recreio 💙.
           </p>
 
         </div>
