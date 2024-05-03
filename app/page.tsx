@@ -82,7 +82,7 @@ export default function Lightning() {
           <div className="container px-3 md:px-0 flex flex-col space-y-2">
             <div className="flex flex-col max-md:space-y-4 md:flex-row md:space-x-4 max-w-full">
               <div className="flex-1 space-y-1">
-                <label>Prompt</label>
+                <label>Tagarela as instruções</label>
                 <Input
                   onChange={(e) => {
                     handleOnChange(e.target.value);
@@ -111,7 +111,7 @@ export default function Lightning() {
             <div className="flex-1 flex-col flex items-center justify-center">
               {image && inferenceTime && (
                 <div className="flex flex-row space-x-1 text-sm w-full mb-2">
-                  <span className="text-neutral-500">Inference time:</span>
+                  <span className="text-neutral-500">Cronómetro:</span>
                   <span
                     className={
                       !inferenceTime ? "text-neutral-500" : "text-green-400"
