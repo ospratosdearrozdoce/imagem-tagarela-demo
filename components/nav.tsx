@@ -19,8 +19,8 @@ export function Nav() {
         <Link href="/">
           <h1 className={cn("font-light text-xl", spaceMono.className)}>
             <span className="text-blue-700">Ricardo</span>
-            <span>@</span>
-            <span>pariisma</span>
+            <span> </span>
+            <span> </span>
           </h1>
         </Link>
       </div>
