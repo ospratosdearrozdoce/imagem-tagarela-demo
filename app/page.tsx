@@ -9,7 +9,7 @@ import { ModelIcon } from "@/components/icons/model-icon";
 import Link from "next/link";
 
 const DEFAULT_PROMPT =
-  "um barco na ribeira do porto";
+  "magia e a cidade azul do porto";
 
 function randomSeed() {
   return Math.floor(Math.random() * 10000000).toFixed(0);
