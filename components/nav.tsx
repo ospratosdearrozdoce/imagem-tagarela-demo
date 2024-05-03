@@ -18,8 +18,8 @@ export function Nav() {
       <div className="flex flex-1 items-center">
         <Link href="/">
           <h1 className={cn("font-light text-xl", spaceMono.className)}>
-            <span className="text-blue-700">tricky</span>
-            <span>💙</span>
+            <span className="text-blue-700">Ricardo</span>
+            <span>@</span>
             <span>pariisma</span>
           </h1>
         </Link>
