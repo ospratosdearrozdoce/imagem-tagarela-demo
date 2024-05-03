@@ -9,7 +9,7 @@ import { ModelIcon } from "@/components/icons/model-icon";
 import Link from "next/link";
 
 const DEFAULT_PROMPT =
-  "A cinematic shot of a baby raccoon wearing an intricate italian priest robe";
+  "um barco na ribeira do porto";
 
 function randomSeed() {
   return Math.floor(Math.random() * 10000000).toFixed(0);
@@ -82,7 +82,7 @@ export default function Lightning() {
           <div className="container px-3 md:px-0 flex flex-col space-y-2">
             <div className="flex flex-col max-md:space-y-4 md:flex-row md:space-x-4 max-w-full">
               <div className="flex-1 space-y-1">
-                <label>Tagarela as instruções</label>
+                <label>Escreve rápido novas instruções!!</label>
                 <Input
                   onChange={(e) => {
                     handleOnChange(e.target.value);
